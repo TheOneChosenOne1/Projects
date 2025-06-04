@@ -1,0 +1,9 @@
+class DuplicateFlashcardError(Exception): pass
+class QuestionTooLongError(Exception): pass
+class AnswerTooLongError(Exception): pass
+class EmptyFieldError(Exception): pass
+class EmptyDeckError(Exception): pass
+class NotANumberError(Exception): pass
+class OutOfRangeError(Exception): pass
+class NeedConfirmationError(Exception): pass
+class NotACSVError(Exception): pass
