@@ -19,7 +19,6 @@ from Exceptions import (
     NotANumberError,
     OutOfRangeError,
     NeedConfirmationError,
-    NotACSVError
 )
 
 class FlashcardApp:
